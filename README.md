@@ -15,7 +15,7 @@ Granularity: Each row represents one product sold within an order
 
 ## ETL Process (Power BI)
 - Extraction
--- Data loaded from an Excel file into Power Query Editor.
+--Data loaded from an Excel file into Power Query Editor.
 - Transformation
 -- Corrected data types across all columns
 -- Fixed incorrect date formats (Order Date & Ship Date)
