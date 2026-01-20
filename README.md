@@ -1,4 +1,4 @@
-#Project Overview
+# Project Overview
 This project performs an end-to-end analysis of supermarket sales data using Power BI and KNIME.
 It covers the full data analytics lifecycle: ETL, data modeling, business intelligence dashboards, exploratory data analysis (EDA), and machine learning regression models for sales prediction.
 The goal of the project is to extract actionable insights from retail data and evaluate machine learning models for predicting sales performance.
