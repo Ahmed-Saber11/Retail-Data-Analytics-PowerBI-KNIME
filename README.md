@@ -3,31 +3,31 @@ This project performs an end-to-end analysis of supermarket sales data using Pow
 It covers the full data analytics lifecycle: ETL, data modeling, business intelligence dashboards, exploratory data analysis (EDA), and machine learning regression models for sales prediction.
 The goal of the project is to extract actionable insights from retail data and evaluate machine learning models for predicting sales performance.
 
-Dataset Description
+# Dataset Description
 Records: 9,800 sales transactions
 Granularity: Each row represents one product sold within an order
 
-Data Includes:
-Order Information: Order ID, Order Date, Ship Date, Ship Mode
-Customer Information: Customer Name, Segment, City, State, Region
-Product Information: Category, Sub-Category, Product Name
-Sales: Revenue per product
+## Data Includes:
+- Order Information: Order ID, Order Date, Ship Date, Ship Mode
+- Customer Information: Customer Name, Segment, City, State, Region
+- Product Information: Category, Sub-Category, Product Name
+- Sales: Revenue per product
 
-ETL Process (Power BI)
-Extraction
-Data loaded from an Excel file into Power Query Editor.
-Transformation
-Corrected data types across all columns
-Fixed incorrect date formats (Order Date & Ship Date)
-Replaced null Postal Codes with "Unknown"
-Created a Row ID column as a primary key
-Applied data normalization to improve performance and modeling
-Normalized Tables
+## ETL Process (Power BI)
+- Extraction
+-- Data loaded from an Excel file into Power Query Editor.
+- Transformation
+-- Corrected data types across all columns
+-- Fixed incorrect date formats (Order Date & Ship Date)
+-- Replaced null Postal Codes with "Unknown"
+-- Created a Row ID column as a primary key
+-- Applied data normalization to improve performance and modeling
+-- Normalized Tables
 Customers Table (customer details and location)
 Products Table (category and product information)
 Order Details Table (transactional data and sales)
-Load
-Cleaned and modeled data loaded into Power BI for analysis and reporting.
+- Load
+-- Cleaned and modeled data loaded into Power BI for analysis and reporting.
 
 DAX Measures & Calculated Columns
 Key DAX Measures:
